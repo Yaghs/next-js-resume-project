@@ -33,7 +33,7 @@ export default function Home() {
       <h1 className="text-3xl lg:text-4xl px-4">Projects</h1>
       <div className=" flex flex-col sm:flex-row flex-wrap gap-4 lg:gap-6 justify-center pt-12 lg:pt-20 px-4">
         <Link className="inline-block rounded-2xl bg-white px-4 lg:px-6  py-3 lg:py-4 text-xl text-black hover:text-blue-500 hover:bg-blue-50 transition duration-300 w-full sm:w-auto text-center" href="https://plottwistsp.web.app/">Plot Twist Movie App </Link>
-        <Link className="inline-block rounded-2xl bg-white px-4 lg:px-6  py-3 lg:py-4 text-xl text-black hover:text-blue-500 hover:bg-blue-50 transition duration-300 w-full sm:w-auto text-center" href="/medicalClassification">Portfolio Website</Link>
+        <Link className="inline-block rounded-2xl bg-white px-4 lg:px-6  py-3 lg:py-4 text-xl text-black hover:text-blue-500 hover:bg-blue-50 transition duration-300 w-full sm:w-auto text-center" href="https://github.com/Yaghs/next-js-resume-project">Portfolio Website</Link>
       </div>
       
     </main>
