@@ -39,20 +39,7 @@ export default function About(){
                         LinkedIn
                         </div>
                     </Link>
-                    <Link className="inline-block rounded-2xl
-                                    bg-white w-full sm:w-auto
-                                    px-4 lg:px-6 py-3 lg:py-4 text-base lg:text-xl text-black
-                                    hover:text-blue-500
-                                    hover:bg-blue-50
-                                    transition duration-300"
-                        href="mailto:syaghinloo@gmail.com">
-                         <div className="flex items-center justify-center gap-3 pt-1.5">
-                            <Image src="/Gmailogo.png" alt="Gmail-logo" width={50} height={50}/>
-                            Gmail
-                        </div>
-                    </Link>
                 </div>
-                
                 </div> 
                 <Image src="/GraduationImage.jpg" alt="graduation-image" width={360} height={600} 
                 className="rounded-[10px] shadow-lg object-cover shrink-0"/>
