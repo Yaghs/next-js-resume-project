@@ -1,5 +1,12 @@
-export default function ContactForm(){
+import ContactForm from "@/app/components/ContactForm"
+
+export default function ContactPage(){
     return(
-        <h1>Contact me here</h1>
+        <main>
+            <div className="pt-20 px-100">
+               <ContactForm/> 
+            </div>
+            
+        </main>
     )
 }
