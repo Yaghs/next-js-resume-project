@@ -1,4 +1,5 @@
 import "./globals.css";
+import ChatWidget from "@/app/components/ChatWidget"
 
 import Link from "next/link"
 
@@ -16,6 +17,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
             <Link className=" text-black text-sm hover:text-blue-500 transition duration-300" href="/Shahin_Yaghinloo_Resume_V16.pdf" download="Shahin-Yaghinloo-Resume">Resume</Link>
           </nav>
         {children}
+        <ChatWidget/>
       </body>
     </html>
   );
