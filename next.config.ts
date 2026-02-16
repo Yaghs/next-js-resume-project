@@ -2,12 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompiler: true,
-  output: 'export',
-  trailingSlash: true,
+  // output: 'export',  // Disabled to enable API routes
+  // distDir: 'out',
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
+  reactCompiler: true
 };
 
 export default nextConfig;

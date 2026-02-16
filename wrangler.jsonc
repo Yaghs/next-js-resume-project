@@ -1,7 +1,7 @@
 {
-   "name": "next-js-resume-project",
-   "compatibility_date": "2026-02-10",
-   "assets": {
-     "directory": "./out"
-   }
+  "name": "next-js-resume",
+  "compatibility_date": "2026-02-10",
+  "ai": {
+    "binding": "AI"
+  }
 }
